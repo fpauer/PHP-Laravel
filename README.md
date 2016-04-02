@@ -1,7 +1,7 @@
 
 # PHP with Laravel
 
-This project is a simple example in how to use Laravel with a different approach in the authentication workflow.
+This project is a simple example about how to use Laravel with a different approach in the authentication workflow.
 
 
 ## Preconditions
