@@ -1,0 +1,6 @@
+@CHARSET "UTF-8";
+
+.form-group.required label:before { 
+   content:"* ";
+   color:red;
+}

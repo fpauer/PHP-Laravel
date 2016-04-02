@@ -1,0 +1,222 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<title></title>
+	<meta name="generator" content="LibreOffice 4.2.8.2 (Linux)">
+	<meta name="created" content="0;0">
+	<meta name="changed" content="20160322;81632823265476">
+	<style type="text/css">
+	<!--
+		h3.cjk { font-family: "Droid Sans Fallback" }
+		h3.ctl { font-family: "FreeSans" }
+		h2.cjk { font-family: "Droid Sans Fallback" }
+		h2.ctl { font-family: "FreeSans" }
+		h5.cjk { font-family: "Droid Sans Fallback" }
+		h5.ctl { font-family: "FreeSans" }
+	-->
+	</style>
+</head>
+<body lang="en-US" dir="ltr" style="background: transparent">
+<h3 class="western"><img src="data:" name="Image1" align="bottom" width="151" height="37" border="0"></h3>
+<p style="margin-bottom: 0in"><br>
+</p>
+<p><em>Your objective is to perform a set of tasks described below.
+Please try to complete as much as possible within given time-frame.</em></p>
+<h3 class="western">Preconditions</h3>
+<ol>
+	<li><p style="margin-bottom: 0in; text-decoration: none">You should
+	work on your local machine.</p>
+	<li><p style="margin-bottom: 0in; text-decoration: none">You may use
+	any IDE or editor for developing the application.</p>
+	<li><p style="margin-bottom: 0in; text-decoration: none">You must
+	use the latest PHP5 version compatible with required libraries.</p>
+	<li><p style="margin-bottom: 0in; text-decoration: none">You must
+	use Apache or IIS as the web server.</p>
+	<li><p style="margin-bottom: 0in; text-decoration: none">You must
+	MySQL as database.</p>
+	<li><p style="margin-bottom: 0in; text-decoration: none">You must
+	use one of these frameworks:</p>
+	<ol>
+		<li><p style="margin-bottom: 0in; text-decoration: none">Laravel</p>
+		<li><p style="margin-bottom: 0in">CodeIgniter</p>
+		<li><p style="margin-bottom: 0in">Yii2</p>
+		<li><p>Symfony2</p>
+	</ol>
+</ol>
+<p><font color="#f50000"><b>Failing to follow these rules will
+invalidate your submission and you will not be evaluated.</b></font></p>
+<h2 class="western">Requirements:</h2>
+<p><font color="#333333"><b>Objective</b></font></p>
+<p><font color="#333333">Create a public news publishing portal where
+news can be published and disseminated</font></p>
+<p><font color="#333333"><b>Functional Specifications</b></font></p>
+<p><font color="#000000">Create a public news publishing system where
+people can report or read news</font></p>
+<ul>
+	<li><p style="margin-bottom: 0in"><font color="#000000">News
+	publishing web application</font></p>
+	<ul>
+		<li><p style="margin-bottom: 0in"><font color="#000000">Any user
+		could register with an email address. The application sends a
+		verification link to the email address. When the user clicks the
+		link, the application asks for a new password (can be tested on
+		localhost w/o need for a public domain). Now the user is registered
+		and is able to publish news. Without this verification user cannot
+		publish news.</font></p>
+		<li><p style="margin-bottom: 0in"><font color="#000000">After log
+		in the user could see his own published news list, remove or
+		publish a new article. No edit of news is permitted.</font></p>
+		<li><p style="margin-bottom: 0in"><font color="#000000">For each
+		news article the following information is required</font></p>
+		<ul>
+			<li><p style="margin-bottom: 0in"><font color="#000000">News title</font></p>
+			<li><p style="margin-bottom: 0in"><font color="#000000">A single
+			photo</font></p>
+			<li><p style="margin-bottom: 0in"><font color="#000000">News text</font></p>
+			<li><p style="margin-bottom: 0in"><font color="#000000">Current
+			date and time</font></p>
+			<li><p style="margin-bottom: 0in"><font color="#000000">Reporter
+			user name / email</font></p>
+		</ul>
+		<li><p style="margin-bottom: 0in"><font color="#000000">Newsstand
+		web application available w/o log in for general public</font></p>
+		<ul>
+			<li><p style="margin-bottom: 0in"><font color="#000000">Users
+			could see the news highlights. Latest 10 news only.</font></p>
+			<li><p style="margin-bottom: 0in"><font color="#000000">Upon
+			clicking an article highlight, the user is able to view a complete
+			article.</font></p>
+			<li><p style="margin-bottom: 0in"><font color="#000000">The user
+			is able to download a PDF file of the displayed news article.</font></p>
+		</ul>
+		<li><p style="margin-bottom: 0in"><font color="#000000">A News RSS
+		feed service</font></p>
+		<ul>
+			<li><p><font color="#000000">An RSS feed can be subscribed to,
+			which includes latest 10 news articles.</font></p>
+		</ul>
+	</ul>
+</ul>
+<p><font color="#333333"><b>Technical Specifications</b></font></p>
+<ol>
+	<li><p style="margin-bottom: 0in"><font color="#000000">Use MVC
+	design.</font></p>
+	<li><p style="margin-bottom: 0in"><font color="#000000">Use MySQL
+	database. Create the needed tables.</font></p>
+	<li><p style="margin-bottom: 0in"><font color="#000000">Use a PDF
+	export library.</font></p>
+	<li><p style="margin-bottom: 0in"><font color="#000000">Create a
+	single application with the publishing, newsstand and RSS service.</font></p>
+	<li><p style="margin-bottom: 0in"><font color="#000000">Use PHP
+	Mailer as mailing library.</font></p>
+	<li><p style="margin-bottom: 0in"><font color="#000000">Apply input
+	validations and constraints wherever necessary to create a stable
+	application.</font></p>
+	<li><p><font color="#000000">Even if you are not able to complete
+	all the tasks, try to achieve a working application.</font></p>
+</ol>
+<h2 class="western"><font color="#333333"><b>Deliverables</b></font></h2>
+<p><font color="#333333"><b>Application Demo</b></font></p>
+<p><font color="#000000">Record the demonstration of the application
+using Wink. Do not upload the video. Save it to your local machine.</font></p>
+<p><font color="#333333"><b>Database script</b></font></p>
+<p><font color="#000000">Create a single SQL script file to create
+the database, its schema and any stored procedure you may use.</font></p>
+<p><font color="#333333"><b>Readme</b></font></p>
+<p><font color="#000000">Create a txt file with the following
+information</font></p>
+<ol>
+	<li><p style="margin-bottom: 0in"><font color="#000000">Steps to
+	create and initialize the database</font></p>
+	<li><p style="margin-bottom: 0in"><font color="#000000">Steps to
+	prepare the source code to build/run properly</font></p>
+	<li><p style="margin-bottom: 0in"><font color="#000000">Any
+	assumptions made and missing requirements that are not covered in
+	the specifications</font></p>
+	<li><p><font color="#000000">Any feedback you may wish to give about
+	improving the assignment Improving.</font></p>
+</ol>
+<p><br><br>
+</p>
+<p><font color="#333333"><b>Design diagrams</b></font></p>
+<p><font color="#333333">Create a doc file containing the following
+information and diagrams</font></p>
+<ol>
+	<li><p style="margin-bottom: 0in"><font color="#000000">List of
+	technologies and design patterns used</font></p>
+	<li><p style="margin-bottom: 0in; text-decoration: none"><font color="#333333">An
+	overall activity or sequence diagram</font></p>
+	<li><p style="text-decoration: none"><font color="#333333">An
+	overall layer or component interaction diagram</font></p>
+</ol>
+<p><br><br>
+</p>
+<h2 class="western"><font color="#333333"><b>To be evaluated</b></font></h2>
+<ol>
+	<li><p style="margin-bottom: 0in">The quality of the output
+	(functionality)</p>
+	<li><p style="margin-bottom: 0in">Code quality and completeness</p>
+	<li><p style="margin-bottom: 0in">Technologies applied</p>
+	<li><p style="margin-bottom: 0in">Extra validations and assumptions
+	which are not described</p>
+	<li><p>Add missing requirements to the implementation, according to
+	your experience.</p>
+</ol>
+<p><br><br>
+</p>
+<h2 class="western"><b>Delivery / What to submit</b></h2>
+<p style="margin-bottom: 0in"><font color="#ed0909"><b>Please, read
+and follow this section carefully. <u>Any delivery that does not
+follow this section will scoremuch less or simply won't be evaluated.</u></b></font></p>
+<p><br><br>
+</p>
+<p><font color="#c5000b">Delivery for this assignment should consist
+of an archive named <b>&lt;your_name&gt;&nbsp;- Software Engineer
+-PHP.zip</b> containing the following:</font></p>
+<ol>
+	<ul>
+		<li><p style="margin-bottom: 0in"><font color="#000000">Source
+		code/project</font></p>
+		<li><p style="margin-bottom: 0in"><font color="#c5000b">Wink
+		recording, download version 2 from Wink, render the video to swf
+		format</font></p>
+		<li><p style="margin-bottom: 0in"><font color="#000000">Readme.txt
+		containing the instructions to configure and run the application,
+		notes and feedback</font></p>
+		<li><p><font color="#000000">Design.doc with needed diagrams</font></p>
+	</ul>
+</ol>
+<p style="margin-bottom: 0in"><font color="#c5000b">Structure of the
+resulting zip file should be of the following format</font></p>
+<p><br><br>
+</p>
+<h5 class="western" style="margin-left: 0.39in; margin-right: 0.39in">
+<font color="#c5000b">&lt;your_name&gt; - Software Engineer - PHP.zip</font></h5>
+<h5 class="western" style="margin-left: 0.39in; margin-right: 0.39in">
+<font color="#c5000b">&lt;your_name&gt;&nbsp;- Software Engineer -
+PHP.zip \Readme.txt </font>
+</h5>
+<h5 class="western" style="margin-left: 0.39in; margin-right: 0.39in">
+<font color="#c5000b">&lt;your_name&gt; - Software Engineer - PHP.zip
+\Design.doc </font>
+</h5>
+<h5 class="western" style="margin-left: 0.39in; margin-right: 0.39in">
+<font color="#c5000b">&lt;your_name&gt; - Software Engineer - PHP.zip
+\Wink\ &lt;&lt;&lt; this folder should contain the wink recording </font>
+</h5>
+<h5 class="western" style="margin-left: 0.39in; margin-right: 0.39in">
+<font color="#c5000b">&lt;your_name&gt; - Software Engineer - PHP.zip
+\Source\ &lt;&lt;&lt; this folder should contain the complete source
+code for the project(s)</font></h5>
+<blockquote><br><br>
+</blockquote>
+<blockquote><font color="#000000">ATTENTION! YOUR APPLICATION WILL BE
+REJECTED IF IT:</font></blockquote>
+<blockquote style="margin-bottom: 0in"><font color="#000000">- Does
+not compile</font></blockquote>
+<blockquote style="margin-bottom: 0in"><font color="#000000">- Does
+not contain unit tests</font></blockquote>
+<blockquote><font color="#000000">- Unit tests are failing</font></blockquote>
+</body>
+</html>
