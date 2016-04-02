@@ -11,12 +11,12 @@
 	Include index.php to the list
 	Save the file
 
-4. unzip the file to [Your Folder]
+4. Download the folder [public_news] 
 
 
 ## Creating and initialing the database
 
-Restore the database backup
+### Restore the database backup
 
 1. Login in the MySQl, run the command: mysql -u root -p[password]
 
