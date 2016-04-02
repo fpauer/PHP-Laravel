@@ -1,4 +1,4 @@
-﻿Preconditions
+﻿## Preconditions
 
 1. Install LAMP stack
 
@@ -14,7 +14,7 @@
 4. unzip the file to [Your Folder]
 
 
-Creating and initialing the database
+## Creating and initialing the database
 
 Restore the database backup
 
@@ -30,7 +30,7 @@ Restore the database backup
 
 6. run the command: GRANT ALL ON public_news.* TO 'user_connection'@'localhost';
 
-Preparing the source code
+## Preparing the source code
 
 
 1. run the command: cd /var/www/html 
@@ -42,20 +42,3 @@ Preparing the source code
      php artisan serve
 
 4. Open the application  http://localhost:port/
-
-
-Unit test folder: /var/www/html/public_news/tests
-
-
-Assumptions
-
-1. The article should have a permalink if someone wants to share it and for a better SEO.
-2. Make the article visible or not.
-3. The images are being saved in a cloud platform called Cloudinary.
-
-
-Improving the assignment
-
-1. About the single photo, it should be informed if the file will be saved in the server, database, or another place.
-
-2. You could use another program to record the screen, because the version 2 just works on Windows OS.
